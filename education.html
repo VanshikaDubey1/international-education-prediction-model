@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Education Cost Predictor</title>
+    <link rel="stylesheet" href="education.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Education Cost Predictor</h1>
+        <form id="predictForm">
+            <label for="country">Country:</label>
+            <input type="text" id="country" required />
+
+            <label for="degree">Degree Type:</label>
+            <select id="degree">
+                <option value="bachelors">Bachelor's</option>
+                <option value="masters">Master's</option>
+                <option value="phd">PhD</option>
+            </select>
+
+            <label for="field">Field (optional):</label>
+            <input type="text" id="field" />
+
+            <label for="duration">Duration (years):</label>
+            <input type="number" id="duration" min="1" required />
+
+            <button type="submit">Predict Cost</button>
+        </form>
+
+        <div id="result" class="result-box"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
