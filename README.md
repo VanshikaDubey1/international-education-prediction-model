@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5fd56361ae0c8c829f888c9c3ec81f304d998f1e
+
 # International Education System Cost Predictor
 
 This web application predicts education costs for international students based on various factors such as country, degree type, and duration of study.
@@ -137,4 +134,3 @@ How It Works
 >>>>>>> 09e79112cf60b52cac7ae31f7abaa798e91d9dd0
 =======
 ``` 
->>>>>>> 5fd56361ae0c8c829f888c9c3ec81f304d998f1e
