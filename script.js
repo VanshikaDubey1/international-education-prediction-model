@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5fd56361ae0c8c829f888c9c3ec81f304d998f1e
 document.getElementById("predictForm").addEventListener("submit", function (e) {
     e.preventDefault();
     console.log("Form submitted");
@@ -36,6 +39,7 @@ document.getElementById("predictForm").addEventListener("submit", function (e) {
             console.error("Error:", error);
             document.getElementById("result").innerHTML = `<p class="error">Failed to fetch prediction. Try again.</p>`;
         });
+<<<<<<< HEAD
 =======
 document.getElementById("predictForm").addEventListener("submit", function (e) {
     e.preventDefault();
@@ -71,4 +75,6 @@ document.getElementById("predictForm").addEventListener("submit", function (e) {
             document.getElementById("result").innerHTML = `<p class="error">Failed to fetch prediction. Try again.</p>`;
         });
 >>>>>>> 09e79112cf60b52cac7ae31f7abaa798e91d9dd0
+=======
+>>>>>>> 5fd56361ae0c8c829f888c9c3ec81f304d998f1e
 });
